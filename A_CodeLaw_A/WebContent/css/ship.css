@@ -1,0 +1,101 @@
+hr {
+	border: 1px solid #858585;
+}
+
+.team {
+	margin-top: 25px;
+}
+
+.team h1 {
+	font-weight: normal;
+	font-size: 22px;
+	margin: 10px 0 0 0;
+}
+
+.team h2 {
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+
+.team .img-box {
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+
+.team .img-box:after {
+	content: "";
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.team .img-box:after {
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+.img-box a {
+	color: #fff;
+}
+
+.img-box:hover:after {
+	opacity: 1;
+}
+
+.img-box a {
+	color: #FFEA05;
+}
+
+.img-box a:hover {
+	text-decoration: none;
+	color: #519548;
+}
+
+.text_01 {
+	color: blue;
+	width: 200px;
+	background-color:;
+	border: 2px solid #1bf;
+	padding: 0.1em;
+	line-height: 0.1em;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.text_04 {
+	color: blue;
+	width: 200px;
+	background-color: white;
+	border: 2px solid #1bf;
+	padding: 0.1em;
+	line-height: 0.1em;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.text_03 {
+	color: red;
+	width: 200px;
+	background-color: rgba(255, 99, 71, 0.5);
+	border: 2px solid #ff6347;
+	padding: 0.1em;
+	line-height: 0.1em;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+.layer {
+	overflow: auto;
+}
+.shipList_tag:hover {
+	text-decoration : none;
+}

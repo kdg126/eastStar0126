@@ -1,0 +1,17 @@
+DROP TABLE MEMBER2;
+CREATE TABLE member2(
+  no NUMBER,
+  id VARCHAR2(15),
+  name VARCHAR2(10 CHAR),
+  pass VARCHAR2(15),
+  phone VARCHAR2(13),
+  email VARCHAR2(100),
+  CONSTRAINT member2_no_pk PRIMARY KEY(no)
+);
+CREATE SEQUENCE member2_seq
+  MINVALUE 1
+  MAXVALUE 9999999
+  INCREMENT BY 1
+  START WITH 1;
+  COMMIT;
+  select * from member2;
